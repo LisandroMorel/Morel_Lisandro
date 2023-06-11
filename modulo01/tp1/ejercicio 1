@@ -1,1 +1,3 @@
+document.writeln("Hola Mundo!");
 
+//lo que hace esa primer linea es escribir una cadena de texto seguida de un espacio.
