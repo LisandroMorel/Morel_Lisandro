@@ -1,0 +1,10 @@
+let dato, resultado;
+//declara dos variables de las cuales una(dato) no se utiliza en el programa, por lo cual esta de mas
+val1 = window.prompt("Introduce tu nombre", "...");
+val2 = window.prompt("Introduce tu apellido", "...");
+//lo que hace es pedir por una ventana en la pantalla del navegador tu nombre y apellido y guarda lo ingresado 
+//en dos variables distintas
+resultado = `Concatenado tu nombre y apellido es: ${val1} ${val2} ` ;
+//luego las concatena y guarda las dos en una misma variable junto con una cadena de texto
+document.write(resultado);
+//y por ultimo muestra esta ultima variable.
